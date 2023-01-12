@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Dancing+Script:wght@400;700&family=Patrick+Hand&family=Playfair+Display:ital@1&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Courgette&family=Dancing+Script:wght@400;700&family=Macondo&family=Patrick+Hand&family=Playfair+Display:ital@1&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #041C32;
+    /* background-image: linear-gradient( to right,#141e30,#243b55, #285f55); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url('./milad-fakurian-VbC-EiOTDqA-unsplash.jpg'); */
+    background-size: cover;
+}
+
+.Header{
+    justify-content: center;
+    text-align: center;
+    font-size: 240%;
+    font-family: 'Satisfy', cursive;
+    /* background-image: url('./cute-blue-fern-futuristic-illumination-art-deco-full-colors-greg-rutkowski-trending-artstation-.png'); */
+    /* background-color: black;
+    color: #fff; */
+    /* position: relative; */
+}
+
+.Header img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.FormHeader{
+    font-size: 160%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courgette', cursive;
+    background-color: #472183;    
+    color: #F8EDE3;
+    /* color: #fff; mix-blend-mode: multiply; */
+}
+
+.FormHeader-div{
+    padding: 1%;
+    margin-top: .05%;
+    text-align: center;
+    color: #F8EDE3;
+    background-color: #4c002d ;
+    font-size: 180%;
+    text-shadow: 10px 10px 100px #fff;
+}
+
+.form-resume{
+    justify-content: center;
+    text-align: center;
+}
+
+.input-fields > input {
+    width: 40%;
+    height: 50%;
+    padding: 1%;
+    margin: .5%;
+    color: #F1F7B5;
+    background-color: #2C394B;  
+    font-size: 140%;
+    text-align: center;
+}
+
+::placeholder{
+    color: #F1F7B5;
+    text-align: center;
+}
+
+#CareerObj,#Experience,#Extracurricular{
+    height: 200px;
+}
+
+
+.form-btn{
+    padding: 1%;
+    margin: 5%;
+    border-radius: 15px;
+    background-color: #4c002d;
+    color: blanchedalmond;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+#outputHeader{
+    color: #F1F7B5;
+    font-size: 140%;
+}
+.outputdiv{
+    color: #F1F7B5;
+    margin: auto;
+    width: 40em;
+    border: 2px solid white;
+}
+
+#outputHeader{
+    text-align: center;
+    font-size: 140%;
+}
+
+
+
+#OutputSkills,#Educationout, #Experienceout, #Achievementsout, #Extracurricularout, #OutputCareer, #hobbiesout{
+    font-size: 140%;
+    margin: 10%;
+}
+
+#Download-Btn{
+    justify-content: center;
+    text-align: center;
+}
+
+#Download , #Print{
+    color: #041C32;
+    background-color: antiquewhite;
+    font-size: 140%;
+    padding: 3%;
+    border-radius: 40px 40px;
+    cursor: pointer;
+}
+
+#Download , #Print:hover{
+    color: #3C6255;   
+}

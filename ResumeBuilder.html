@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ResumeBuilder.css">
+    <title>Resume Builder</title>
+</head>
+<body onload="onload()">
+    <div class="Header">
+        <!-- <img src="./a-crisp-minimal-abstract-wallpaper-dark-black-background-blue-purple-red-background--trendin-568252963.png" alt=""> -->
+        <h1 class="FormHeader">Resume Builder</h3>
+    </div>
+
+    <div class="FormHeader-div">
+        <h3>Fill all the details</h3>
+    </div>  
+
+    <div>
+        <form action="" class="form-resume" >
+            <div class="input-fields">
+                <input type="text" name="FristName" id="FristName" placeholder="Enter your Frist Name" ><br>
+                <input type="text" name="LastName" id="LastName" placeholder="Enter you Last Name"><br>
+                <input type="tel" name="Contact" id="Contact" placeholder="Contact Number"><br>
+                <input type="text" name="CareerObj" id="CareerObj" placeholder="Career Objective" minlength="100" maxlength="250"><br>
+                <input type="text" name="Qualification" id="Qualification" placeholder="University Name"><br>
+                <input type="text" name="degree" id="degree" placeholder="Degree"><br>
+                <input type="text" name="skills" id="skills" placeholder="HTML, CSS,(Use Commas to separate)"><br>
+                <input type="text" name="Experience" id="Experience" placeholder="Experience" minlength="0" maxlength="200"><br>
+                <input type="text" name="Achievements" id="Achievements" placeholder="Achievements"><br>
+                <input type="text" name="Extracurricular" id="Extracurricular" placeholder="Extracurricular activities"><br>
+                <input type="text" name="Hobbies" id="Hobbies" placeholder="Interests/hobbies"><br>
+                <input type="email" name="Email" id="Email" placeholder="Enter your Email Id"><br>
+                
+            </div>
+            <h2 id="gge"></h2>
+            <br><br><br>
+            <input type="button" value="Submit" class="form-btn" onclick="ResumeGetData()">
+        <input type="button" value="Reset" class="form-btn" onclick="reset()">
+            
+        </form>
+        <div class="sample" id="sample"></div>
+    </div>
+
+
+    <!-- ----------------Output ------------------------ -->
+    <div class="outputdiv" id="outputdiv">
+        <div id="outputHeader">
+            <h2 id="FNameOut">BH V KRISHNA PRASAD</h2>
+            <h6 id="EmailOut">bhvkrishna1302@gmail.com | </h6>
+        </div>
+
+        <hr>
+
+        <div id="OutputCareer">
+            <h3 id="CareerOutput">Career Objective:-</h3>
+            <p id="CareerOutDes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sapiente libero consequuntur corrupti, accusantium illo exercitationem a? Facilis dolorum, adipisci ipsa at, omnis dignissimos, reprehenderit nemo illum iure nobis corrupti.
+            Quis quia earum perferendis impedit facilis id, quaerat tempora voluptatum non incidunt velit ratione, distinctio voluptatem eius sapiente magni deserunt obcaecati consequuntur molestiae ducimus natus nam, enim dolores? Dolores, illo.
+            Esse perspiciatis tenetur non explicabo derovident, dolores, voluptas a totam numquam consectetur laudantium perferendis molestias minus id fugiat, explicabo quasi odio deserunt? Dolorum deserunt excepturi commodi sed.</p>
+        </div>
+
+        <div id="OutputSkills">
+            <h3 id="Skillsout">Skills</h3>
+            <div id="SkillsBullet"></div>
+        </div>
+
+        <div id="Educationout">
+            <h3 id="EduHeader">Education</h3>
+            <h5 id="DegreeOut">Degree</h5>
+        </div>
+
+        <div id="Experienceout">
+             <h3 id="ExpHeader">Experience</h3>
+             <h5 id="ExpDes">Experience details</h5>
+        </div>
+
+        <div id="Achievementsout">
+            <h3 id="Achout">Achievements</h3>
+            <h5 id="Achdes">Achievements details</h5>
+        </div>
+        
+        <div id="hobbiesout">
+            <h3 id="hobout">Hobbies</h3>
+            <h5 id="hobbiesdes">Achievements details</h5>
+        </div>
+
+        <div id="Extracurricularout">
+            <h3 id="ExtDes">Extracurricular</h3>
+            <h5 id="extraOut"></h5>
+        </div>
+        <div id="Download-Btn"> 
+            <input type="button" value="Download" id="Download">
+            <input type="button" value="Print" id="Print">
+        </div>
+    </div>
+
+    
+    
+
+    <script src="./ResumeBuilder.js"></script>
+
+</body>
+</html>
